@@ -45,10 +45,10 @@ rangeIPadView = 0.0f,
 normalSize = 7.0f,
         offsetAfter360 = 12.0f;
 
-const char *path = "ZGF0YS91c2VyLzAvY29tLmNwLmpvL3NoYXJlZF9wcmVmcw=="; //-- data/user/0/com.cp.jo/shared_prefs
-const char *password = "MTIzNDU2Nzg="; //-- 12345678
-const char *email = "bW9iaWxlLm1vaGFtYWQwNzg5QGdtYWlsLmNvbQ=="; //-- mobile.mohamad0789@gmail.com
-const char *_Null = "bnVsbA=="; //-- null
+const char *path = "xxxxxxxxxxxxxxxxxxx"; 
+const char *password = "xxxxxxxxxxxxxxxxxxx"; 
+const char *email = "xxxxxxxxxxxxxxxxxxx"; 
+const char *_Null = "xxxxxxxxxxxxxxxxxxx"; 
 
 enum class DataControl {
     //-- Drawing For Player
