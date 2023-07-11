@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/Setting_lay_Setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_20sdp">
+
+            <!--Width Line-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <SeekBar
+                    android:id="@+id/Setting_sb_Width_Line"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:max="150"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/style_seekbar_progress"
+                    android:thumb="@drawable/style_seekbar_thumb" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_WidthLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:checkable="true"
+                    android:text="@string/Text_width_line"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_WidthLineCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_60sdp"
+                    android:checkable="true"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="RelativeOverlap" />
+            </RelativeLayout>
+
+            <!--Radius-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <SeekBar
+                    android:id="@+id/Setting_sb_Radius"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:max="500"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/style_seekbar_progress"
+                    android:thumb="@drawable/style_seekbar_thumb" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_Radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:checkable="true"
+                    android:text="@string/Text_radius_360"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_RadiusCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_60sdp"
+                    android:checkable="true"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="RelativeOverlap" />
+            </RelativeLayout>
+
+            <!--Size Item-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <SeekBar
+                    android:id="@+id/Setting_sb_Size_Item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:max="500"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/style_seekbar_progress"
+                    android:thumb="@drawable/style_seekbar_thumb"
+                    tools:ignore="TooManyViews" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_Size_Item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:checkable="true"
+                    android:text="@string/Text_size_item"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Setting_tv_Size_ItemCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_60sdp"
+                    android:checkable="true"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"
+                    tools:ignore="RelativeOverlap" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:text="@string/Text_hide_items_button"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/Setting_sw_HideItems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:thumb="@drawable/style_switch_thumb"
+                    android:track="@drawable/style_switch_track"
+                    tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

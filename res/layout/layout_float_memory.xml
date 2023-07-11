@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="?attr/textAppearanceSubtitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ic_playlist"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:text="Memory Sdk"
+                    android:textColor="@color/color_text_primary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/Memory_cb_less"
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Less"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/Memory_cb_cross"
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Crosshair"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/Memory_cb_aimbot"
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Aimbot"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/Memory_cb_bullet"
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Bullet"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="instantHit"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Head %20"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Smart Damage"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/CustomStyleChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:text="Fire fast"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:checkedIcon="@drawable/ic_checked"
+                    app:checkedIconTint="@color/color_chip_image"
+                    app:chipIcon="@drawable/ic_safe"
+                    tools:ignore="TextSizeCheck" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="@dimen/_2sdp">
+
+                    <SeekBar
+                        android:id="@+id/Memory_sb_ipad_View"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:max="700"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/style_seekbar_progress"
+                        android:thumb="@drawable/style_seekbar_thumb" />
+
+                    <TextView
+                        android:id="@+id/Memory_tv_ipad_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:checkable="true"
+                        android:text="Ipad View"
+                        android:textColor="@color/color_text_primary"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold"
+                        tools:ignore="TextSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/Memory_tv_ipad_view_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_50sdp"
+                        android:checkable="true"
+                        android:textColor="@color/color_text_primary"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold"
+                        tools:ignore="RelativeOverlap" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

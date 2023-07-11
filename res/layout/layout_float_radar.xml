@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Radar_lay_Radar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start|top"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Line-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Line"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="Line"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck" />
+
+            <!--Skeleton-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Skeleton"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_skeleton"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+            <!--Info-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_InfoPlayer"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_info_player"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck" />
+
+            <!--Weapon-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Weapon"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_weapon"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck" />
+
+            <!--Mark-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Mark"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_mark360"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+            <!--Health-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Health"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_health"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck" />
+
+            <!--Grenade-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Grenade"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_grenade"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck" />
+
+            <!--Dist-->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/Radar_cb_Dist"
+                style="@style/CustomStyleChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="@string/Text_dist"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:checkedIcon="@drawable/ic_checked"
+                app:checkedIconTint="@color/color_chip_image"
+                tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
