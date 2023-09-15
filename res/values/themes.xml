@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Theme.CP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_Primary</item>
+        <item name="colorPrimaryVariant">@color/color_ActionbarUp</item>
+        <item name="colorOnPrimary">@color/color_Primary</item>
+        <item name="colorSecondary">@color/color_Primary</item>
+        <item name="colorSecondaryVariant">@color/color_Primary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/color_ActionbarUp</item>
+    </style>
+
+    <style name="CustomStyleChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/style_background_chip</item>
+    </style>
+</resources>

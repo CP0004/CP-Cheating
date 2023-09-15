@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_app">
+
+    <ImageView
+        android:id="@+id/Splash_img_logo"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:src="@drawable/ic_logo"
+        tools:ignore="ContentDescription"
+        app:tint="@color/color_image_primary" />
+
+    <ProgressBar
+        android:id="@+id/Splash_pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Splash_img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp" />
+
+    <ProgressBar
+        android:id="@+id/Splash_pb_dawnloading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/Splash_img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:indeterminate="true"
+        android:indeterminateDuration="@integer/google_play_services_version"
+        android:max="100"
+        android:progress="0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Splash_btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Splash_pb_loading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:elevation="@null"
+        android:text="@string/Text_continue"
+        android:textColor="@color/color_text_sub"
+        app:cornerRadius="@dimen/dimen_radius_card"
+        app:elevation="@null" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:elevation="@null"
+        app:cardCornerRadius="@dimen/dimen_radius_card"
+        app:cardElevation="@null">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_background_card_sub"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/Text_cp_2023"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

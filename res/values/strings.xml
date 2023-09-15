@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">CP Cheating</string>
+    <string name="xposed_description">CP Cheating [ Inject For Pubg ]</string>
+    <string name="Text_cp_2023">CP ©2023</string>
+    <string name="Text_continue">Continue</string>
+    <string name="Text_injection">Injection</string>
+    <string name="Text_protection">Protection</string>
+    <string name="Text_info_device">Info Device</string>
+    <string name="Text_uid_device">Uid Device</string>
+    <string name="Text_premium">Premium</string>
+    <string name="Text_key">Key</string>
+    <string name="Text_date_use">Date Use</string>
+    <string name="Text_date_expiration">Date Expiration</string>
+    <string name="Text_time_left">Time Left</string>
+    <string name="Text_logout">Logout</string>
+    <string name="Text_version">Version</string>
+    <string name="Text_news">News</string>
+    <string name="Text_login">Login</string>
+    <string name="Text_don_t_have_key">Don`t have key?</string>
+    <string name="Text_day">day</string>
+    <string name="Text_hour">hour</string>
+    <string name="Text_minute">minute</string>
+    <string name="Text_second">second</string>
+    <string name="Text_server_dwon">The server has been stopped. It will be running soon. Please try again later</string>
+    <string name="Text_update_app">The application needs to be updated, please download the latest version</string>
+    <string name="Text_maintenance">Servers under maintenance, please try again later</string>
+    <string name="Text_error">There is a problem with your connection or internet, please try again</string>
+    <string name="Text_exception">There is a problem with the permissions or information you sent to the server. Please try again</string>
+    <string name="Text_key_used">The key is used</string>
+    <string name="Text_key_expired">The key is expired</string>
+    <string name="Text_error_download">There is an error loading the data</string>
+    <string name="Text_Key_Limits">length Key > 20 only</string>
+    <string name="Text_Select_CPU">Please choose type 64 or 32</string>
+    <string-array name="scope">
+        <item>com.tencent.ig</item>
+        <item>com.pubg.krmobile</item>
+        <item>com.pubg.vngmobile</item>
+        <item>com.rekoo.pubgm</item>
+    </string-array>
+    <string name="Text_key_exist">The key does not exist</string>
+    <string name="Text_radar">Radar</string>
+    <string name="Text_memory">Memory</string>
+    <string name="Text_setting">Setting</string>
+    <string name="Text_x">X</string>
+    <string name="Text_width_line">Width Line</string>
+    <string name="Text_radius_360">Radius 360</string>
+    <string name="Text_size_item">Size Item</string>
+    <string name="Text_hide_items_button">Hide Items Button</string>
+    <string name="Text_skeleton">Skeleton</string>
+    <string name="Text_info_player">Info Player</string>
+    <string name="Text_weapon">Weapon</string>
+    <string name="Text_mark360">Mark360</string>
+    <string name="Text_health">Health</string>
+    <string name="Text_grenade">Grenade</string>
+    <string name="Text_dist">Dist</string>
+    <string name="Text_items">Items</string>
+    <string name="Text_line">Line</string>
+    <string name="Text_memory_sdk">Memory Sdk</string>
+    <string name="Text_less">Less</string>
+    <string name="Text_crosshair">Crosshair</string>
+    <string name="Text_aimbot">Aimbot</string>
+    <string name="Text_bullet">Bullet</string>
+    <string name="Text_instanthit">instantHit</string>
+    <string name="Text_head_20">Head %20</string>
+    <string name="Text_smart_damage">Smart Damage</string>
+    <string name="Text_ipad_view">Ipad View</string>
+    <string name="Text__32bit">32Bit</string>
+    <string name="Text__64bit">64Bit</string>
+    <string name="Text_stop">Stop</string>
+</resources>

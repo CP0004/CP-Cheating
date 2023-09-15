@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Style App-->
+    <color name="black">#FF000000</color>
+    <color name="white">#1a232b</color>
+    <color name="color_ActionbarUp">#1a232b</color>
+    <color name="color_Primary">#edbf49</color>
+    <color name="color_Loading">#edbf49</color>
+    <color name="color_Teal">#edbf49</color>
+
+    <!--Background App-->
+    <color name="color_background_app">#1a232b</color>
+
+    <!--Background card-->
+    <color name="color_background_card_primary">#edbf49</color>
+    <color name="color_background_card_sub">#242f3d</color>
+    <color name="color_background_card_in_sub">#1a232b</color>
+
+    <!--Text-->
+    <color name="color_text_primary">#edbf49</color>
+    <color name="color_text_sub">#242f3d</color>
+    <color name="color_text_successful">#1AB000</color>
+    <color name="color_text_Risk">#B00020</color>
+    <color name="color_text_wrong">#B09900</color>
+    <color name="color_text_link">#007EB0</color>
+
+    <!--Hint-->
+    <color name="color_hint_primary">#80EDBF49</color>
+    <color name="color_hint_sub">#80FFFFFF</color>
+    <color name="color_hint_successful">#801AB000</color>
+    <color name="color_hint_Risk">#80B00020</color>
+    <color name="color_hint_link">#80007EB0</color>
+
+    <!--Stroke-->
+    <color name="color_stroke_primary">#edbf49</color>
+
+    <!--Image-->
+    <color name="color_image_primary">#edbf49</color>
+    <color name="color_image_sub">#242f3d</color>
+
+    <!--Actionbar Select-->
+    <color name="color_actionbar_bottom_select_true">#edbf49</color>
+    <color name="color_actionbar_bottom_select_false">#313943</color>
+    <color name="color_actionbar_bottom_background">#1a232b</color>
+
+    <!--Dialog-->
+    <color name="color_dialog">#edbf49</color>
+
+    <!--Edit Text-->
+    <color name="color_edit_text_box_stroke">#edbf49</color>
+    <color name="color_edit_text_box_stroke_error">#B00020</color>
+    <color name="color_edit_text_background">#242f3d</color>
+    <color name="color_edit_text_text">#1c1a22</color>
+    <color name="color_edit_text_hint">#313943</color>
+    <color name="color_edit_text_icon">#edbf49</color>
+
+    <!--Chip Color -->
+    <color name="color_chip_background_state_false">#1a232b</color>
+    <color name="color_chip_background_state_true">#1a232b</color>
+    <color name="color_chip_image">#edbf49</color>
+
+    <!--Progress-->
+    <color name="color_seekBar_background">#1a232b</color>
+    <color name="color_seekBar_progress">#edbf49</color>
+
+    <!--Switch-->
+    <color name="color_switch_thumb">#edbf49</color>
+    <color name="color_switch_trackOn">#313943</color>
+    <color name="color_switch_trackOff">#1a232b</color>
+
+</resources>
