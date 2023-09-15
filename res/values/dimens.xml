@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="dimen_radius_card">@dimen/_10sdp</dimen>
-    <dimen name="dimen_colum_adapter">3px</dimen>
-</resources>
